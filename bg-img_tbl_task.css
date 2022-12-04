@@ -1,0 +1,149 @@
+*{box-sizing: border-box;}
+.form
+{
+	height: 560px;
+	width: 100%;
+	background: url(https://th.bing.com/th/id/R.bfcd4e3f74f8be10f645f68f8134eb49?rik=HedszQ6EZtIr1w&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2015%2f09%2f20%2fbackground-hd-2015_111526235_269.jpg&ehk=r9DKkDaUURlMVj7h5EYzfNnY3LN10mxlJMFhdrv6XRI%3d&risl=&pid=ImgRaw&r=0);
+	background-size: 100% 100%;
+	border: 1px solid gray;
+    padding-top:20px ;
+    color: white;
+
+}
+.form span
+{ 
+    letter-spacing: 5px;  
+    padding-left:280px ;
+	font-size: 50px;
+}
+.form .table
+{
+/*	border: 1px solid white;*/
+	margin: auto;
+    height: 400px;
+    background: linear-gradient(#29AB87,rgba(0, 200, 0, 0.30));
+
+	
+}
+.form .table label
+{
+   color: white;
+   padding-left:  15px;
+
+}
+.form .table .lable1
+{
+	margin-right: 55px;
+}
+.form .table .lable2
+{
+	margin-right: 15px;
+}
+.form .table .lable3
+{
+	margin-right: 20px;
+}
+.form .table .lable4
+{
+	margin-right: 10px;
+}
+.form .table .lable5
+{
+	margin-right: 8px;
+}
+.form .table .lable6
+{
+	margin-right: 11px;
+}
+.form .table .lable7
+{
+	margin-right: -4px;
+}
+.form .table .lable8
+{
+	margin-right: 10px;
+}
+.form .table .lable9
+{
+	margin-right: 14px;
+}
+.form .table .lable10
+{
+	margin-right: 10px;
+}
+.form .table .lable11
+{
+	margin-right: 100px;
+}
+.form .table .lable12
+{
+	margin-right: 10px;
+}
+.form .table .lable13
+{
+	margin-right: 13px;
+}
+.form .table .lable14
+{
+	margin-right: 12px;
+}
+.form .table .lable15
+{
+	margin-right: 67px;
+}
+.form .table .lable16
+{
+	margin-right: 10px;
+}
+.form .table .lable17
+{
+	margin-right: 67px;
+}
+.form .table .lable18
+{
+	margin-right: 10px;
+}
+.form .table input
+{
+	background-color: transparent;
+	color: white;
+	outline: none;
+	border: 1px solid white;
+
+}
+.form .table .input1
+{
+	margin-right:70px ;
+}
+.form .table .inputcity
+{
+	margin-right: 75px;
+}
+.form .table .inputzip
+{
+	margin-right: 75px;
+}
+.form .table input::placeholder
+{
+	color: white;
+}
+.form .table .submit
+{
+	height: 30px;
+	width: 150px;
+	background: skyblue;
+	color: white;
+	font-size: 18px;
+	border: none;
+	margin-left: 190px;
+	margin-right: 20px;
+}
+.form .table .reset
+{
+     height: 30px;
+	width: 150px;
+	color: white;
+	font-size: 18px;
+	background:orange;
+	border: none;
+}
