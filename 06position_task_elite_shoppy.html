@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*{box-sizing: border-box;}
+		.product
+		{
+			height: 300px;
+			width:550px;
+			background: url(https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
+			background-size: 110% 100%;
+			border: 18px solid rgba(0, 0, 0, 0.10);
+			background-origin: border-box;
+/*			padding: 30px 50px 50px 50px; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+			background-position: -30px,0;
+           transition: 0.50s;
+           position: relative;
+		}
+		.product span 
+		{
+			color: white;
+			font-size: 30px;
+			position: absolute;
+			top: 80px;
+			left: 200px;
+			letter-spacing: 5px;
+			font-family: cursive;
+		}
+		.product span:first-letter
+		{
+            color: darkred;
+		}
+		.effect
+		{
+			height: 200px;
+			width: 450px;
+			background-color: transparent;
+			border: 7px solid white;
+            letter-spacing: 8px;
+            font-family: cursive;
+            color: white;
+            font-size: 20px;
+            padding: 95px 0 0 180px;
+/*            display: none;*/
+            transition: 1s;
+            opacity: 0;
+            transform:translate(-3%,0);
+		}
+		.product:hover .effect
+		{
+/*			display: block;*/
+			opacity: 1;
+			transform:translate(0,0);
+		}
+		.product:hover 
+		{
+			background-position:0,0 ;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="product">
+		<span>FALL AHEAD</span>
+		<div class="effect">
+			New Arrivles
+		</div>
+	</div>
+
+</body>
+</html>

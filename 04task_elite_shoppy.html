@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		
+		div
+		{
+			height: 50px ;
+			width: 150px;
+			background-color: #2fdab8;
+			color: white;
+			text-align: center;
+			line-height: 50px;
+			margin: 100px auto;
+           font-size: 20px;
+           position: relative;
+
+		}
+		div a 
+		{
+			text-decoration: none;
+			color: white;
+		}
+         div::after
+         {
+         	content: "";
+         	position: absolute;
+         	top: 0;
+         	left: 0;
+         	bottom: 0;
+         	right: 0;
+         	border: 5px solid #2fdab8 ;
+         	transition: 0.60s;
+         }
+         div:hover::after
+         {
+         	top: -10px;
+         	left: -10px;
+         	bottom: -10px;
+         	right: -10px;
+         }
+	</style>
+</head>
+<body>
+
+	<div>
+		<a href="">Shop Now</a>
+	</div>
+
+</body>
+</html>

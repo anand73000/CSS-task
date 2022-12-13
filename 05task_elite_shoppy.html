@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style type="text/css">
+		*{box-sizing: border-box;}
+		.main
+		{
+			height: 100px;
+			background-color: white;
+			text-align: center;
+			line-height: 100px;
+            display: flex;
+            box-shadow: 0 0 20px dimgray;
+            margin-top:100px ;
+		}
+		.main .i1
+		{
+			height: 100px;
+			width: 25%;
+			color: white;
+			position: relative;
+			transition: 2s;
+		}
+		.main .i2
+		{
+			height: 100px;
+			width: 25%;
+			color: white;
+			position: relative;
+		}
+		.main .i3
+		{
+			height: 100px;
+			width: 25%;
+			color: white;
+			position: relative;
+		}
+		.main .i4
+		{
+			height: 100px;
+			width: 25%;
+			color: white;
+			position: relative;
+		}
+		.main i 
+		{
+			border: 1px solid black;
+		    padding: 30px;
+		    background: black;
+		    
+
+		}
+		.i1::after,.i2::after,.i3::after,.i4::after
+		{
+			content: "";
+			height: 0px;
+			width: 0px;
+			background: #2fdab8;
+			position: absolute;
+			top:50px;
+			right: 50px;
+			left: 150px;
+			bottom: 50px;
+			transition: 1s;
+			
+           
+		}
+		.i1:hover::after,.i2:hover::after,.i3:hover::after,.i4:hover::after
+		{   
+			
+			height: 80px;
+			width: 82px;
+			top: 10px;
+			right: 0;
+			left: 111px;
+			bottom: 0;
+			transition: 1s;
+			
+		}
+	</style>
+</head>
+<body>
+
+	<div class="main">
+		<div class="i1"><i class="fa fa-truck"></i></div>
+
+		<div class="i2"><i class="fa fa-headphones"></i></div>
+
+		<div class="i3"><i class="fa fa-shopping-bag"></i></div>
+
+		<div class="i4"><i class="fa fa-gift"></i></div>
+
+		
+	</div>
+
+</body>
+</html>

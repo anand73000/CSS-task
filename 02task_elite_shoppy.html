@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.nav
+		{
+			height: 100px;
+			width: 50%;
+			background-color: black;
+			color: white;
+			text-align: center;
+			line-height: 100px;
+			font-size: 20px;
+			display: flex;
+			text-decoration: none;
+			margin: auto;
+			overflow: hidden;
+		
+		}
+		.nav .home
+		{
+			height: 100px;
+		    width: 33.33%;
+		    transition: 2s;
+		    position: relative;
+
+		}
+		.nav .about
+		{
+			height: 100px;
+			width: 33.33%;	
+			position: relative;
+			
+			
+		}
+		.nav .contact
+		{
+			height: 100px;
+			width: 33.33%;
+			position: relative;
+		
+		}
+		.home:after
+		{
+			content: "";
+			height: 10px;
+			width:0%;
+			background: #2fdab8;
+			transition: 1s;
+			position: absolute;
+			top: 90px;
+			left: -50%;
+		}
+		.home:hover::after
+        {
+        	left: 0;
+        	
+        	width: 100%;
+        }
+		.about:after
+		{
+			content: "";
+			height: 10px;
+			width: 0%;
+			background: #2fdab8;
+			transition: 1s;
+			position: absolute;
+			top: 90px;
+			left: 0%;
+
+		}
+        .about:hover::after
+        {
+        	left: 0%;
+        	width: 100%;
+        }
+        .contact:after
+		{
+			content: "";
+			height: 10px;
+			width:0%;
+			background: #2fdab8;
+			transition: 1s;
+			position: absolute;
+			top: 90px;
+			left: 0%;
+		}
+        .contact:hover::after
+        {
+        	left: 0;
+        	width: 100%;
+        	
+        }
+	</style>
+</head>
+<body>
+
+	<a href="" class="nav">
+		<div class="home">Home</div>
+		<div class="about">About</div>
+		<div class="contact">Contact</div>
+	</a>
+
+</body>
+</html>

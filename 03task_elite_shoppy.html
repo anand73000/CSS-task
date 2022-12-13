@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		.effect
+		{
+			height: 300px;
+			display: flex;
+/*			background: dimgray;*/
+			margin-top:100px ;
+			z-index: 0;
+		}
+		.img1
+		{
+			height: 300px;
+			width: 50%;
+/*			border: 1px solid;*/
+			position: relative;
+			transition: 1s;
+			overflow: hidden;
+		}
+		.img2
+		{
+			height: 300px;
+			width: 50%;
+/*			border: 1px solid;*/
+			position: relative;
+			overflow: hidden;
+		}
+		.img1:after,.img2:after
+		{
+			content: "";
+			height: 400px;
+			width: 650px;
+			background: linear-gradient(dimgray,rgba(0,0,0,0.0));
+			position: absolute;
+			top: -130%;
+			right: -110%;
+			transition: 1s;
+
+		}
+		.img1:before,.img2:before
+		{
+			content: "";
+			height: 400px;
+			width: 650px;
+			background: linear-gradient(dimgray,rgba(0,0,0,0.0));
+			position: absolute;
+			bottom: -150%;
+			left: -120%;
+			transition: 1s;
+			
+		}
+		.img1:hover::after,.img2:hover::after
+		{
+           top: 0;
+           right: 0;
+
+		}
+        .img1:hover::before, .img2:hover::before
+        {
+        	bottom: 0;
+        	left: 0;
+        }
+
+	</style>
+</head>
+<body>
+
+	<div class="effect">
+		<div class="img1">
+			
+			<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_1.jpg" height="100%" width="100%">
+		</div>
+		<div class="img2">
+			<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bot_2.jpg" height="100%" width="100%">
+		</div>
+	</div>
+
+</body>
+</html>
