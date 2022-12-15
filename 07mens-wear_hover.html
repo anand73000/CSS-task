@@ -46,15 +46,55 @@
             color: black;
            line-height: 43px;
            
+           
 		}
 		
 		.nav .mens .mens3
 		{
 			width: 300px;
 /*            border:1px solid red;*/
-            padding: 10px 0 0 10px;
+/*            padding: 10px 0 0 10px;*/
+            position: relative;
+            overflow: hidden;
+            transition: 1s;
             
 		}
+		.nav .mens .mens3::after
+		{
+			content: "";
+			height: 300px;
+			width: 300px;
+			background: rgba(0,0,0,0.2);
+			position: absolute;
+			bottom: 100%;
+			left: 100%;
+			 transition: 1s;
+            
+		}
+		.nav .mens .mens3::before
+		{
+			content: "";
+			height: 300px;
+			width: 300px;
+			background: rgba(0,0,0,0.2);
+			position: absolute;
+			top: 100%;
+			right: 100%;
+			 transition: 1s;
+            
+		}
+		.nav .mens .mens3:hover::before
+		{
+			top: 0;
+			right: 0;
+		}
+		.nav .mens .mens3:hover::after
+		{
+		     bottom: 0;
+			left: 0;
+		}
+
+
 		.nav:hover .main 
 		{
 			display: block;
@@ -98,7 +138,7 @@
 			</div>
 
 			<div class="mens3">
-				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/top2.jpg" height="95%" width="90%">
+				<img src="https://demo.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/top2.jpg" height="100%" width="100%">
 			</div>
 
 		</div>
