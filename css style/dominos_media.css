@@ -1,0 +1,33 @@
+
+@media(max-width:500px)
+{
+	.heading .dlogo {width: 50%}
+	.heading .headmenu {display: none;}
+	.bgimg .spone{top: 20px;left: 10px}
+	.bgimg .sptwo{top: 70px;left: 10px}
+	.bgimg .spanonline{top: 130px; left: 10px}
+	.insidebgimg{top: 250px;left: 50px}
+	.bgimg{height: 375px;}
+	.coupons .cimg1{width: 100%}
+	.coupons .cimg2{width: 100%}
+	.coupons span{display: none;}
+	.explore span{display: none;}
+	.explore {padding-left: 90px;padding-top: 0}
+	.explore .prd1{width: 80%;margin: 0 0 10px -10px}
+	.explore .prd1 .lastbox{width: 100%;}
+	.explore .prd2{width: 80%;margin: 0 0 10px -10px}
+	.explore .prd2 .lastbox{width: 100%}
+	.explore .prd3{width: 80%;margin: 0 0 10px -10px}
+	.explore .prd3 .lastbox{width: 100%}
+	.explore .prd4{width: 80%;margin: 0 0 10px -10px}
+	.explore .prd4 .lastbox{width: 100%}
+	.share .img{display: none;}
+	.share .content{width: 100%}
+	.share .content .pone {margin: 60px 0 0 20px}
+	.share .content .ptwo {margin: 20px 0 0 30px}
+	.share .content .img1{width: 45%;margin: 20px 0 0 10px}
+	.share .content .img2{width: 45%;margin: 20px 0 0 10px}
+
+
+
+}
