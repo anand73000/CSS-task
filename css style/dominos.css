@@ -150,6 +150,7 @@ li,ul
 	padding: 70px 10px 30px 150px;
 	text-align: center;
 	position: relative;
+
 }
 .explore span 
 {
@@ -172,12 +173,14 @@ li,ul
 {
 	font-size: 70px;
    padding-top: 30px;
+
 }
 .explore .prd1 .pone,.explore .prd2 .pone,.explore .prd3 .pone,.explore .prd4 .pone
 {
   padding-top: 10px;
   font-weight: bold;
   letter-spacing: 1px;
+  font-family: verdana;
 }
 .explore .prd1 .ptwo,.explore .prd2 .ptwo,.explore .prd3 .ptwo,.explore .prd4 .ptwo
 {
@@ -194,6 +197,7 @@ li,ul
 	left: 0x;
 	color: red;
 	padding-top: 10px;
+	font-family: verdana;
 }
 .explore .prd2
 {
@@ -212,7 +216,8 @@ li,ul
 	bottom: 0;
 	left: 0x;
 	color: red;
-	padding-top: 10px;
+	padding-top: 8px;
+	font-family: verdana;
 }
 .explore .prd3
 {
@@ -232,6 +237,7 @@ border: 1px dotted black;
 	left: 0x;
 	color: red;
 	padding-top: 10px;
+	font-family: verdana;
 }
 .explore .prd4
 {
@@ -251,11 +257,13 @@ border: 1px dotted black;
 	left: 0x;
 	color: red;
 	padding-top: 10px;
+	font-family: verdana;
 }
 .explore a
 {
 	text-decoration: none;
 	color: red;
+   font-weight: bold;
 }
 
 .share

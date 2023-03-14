@@ -1,0 +1,35 @@
+@media(max-width:500px)
+{
+	.heading .quarter{width: 100%}
+	.heading img{width: 50%}
+	.heading .menu{display: none;}
+	.nav .navinfo{width: 100%}
+	.nav .navimg{width: 100%}
+	.navinfo .nav2{font-size: 30px;top: 28%}
+	.navinfo .nav3{top: 48%}
+	.navinfo .nav4{top: 70%}
+	.navinfo .nav5{top: 70%}
+	 .slider .imgslider{width: 100%;margin-top: 500px}
+	 .slider .imgslider img {width: 100%}
+	 .slider .contentslider{width: 100%}
+	  .slider .contentslider .content1{width: 100%;}
+	  .slider .contentslider .content2{width: 100%;font-size: 32px}
+	   .slider .contentslider .content3{width: 100%;}
+	 .slider .contentslider .content4{width: 100%}
+	  .slider .contentslider .content4 h2 {font-size: 20px}
+	  .slider .contentslider .content5{width: 100%}
+	  	  .slider .contentslider .content5 h2 {font-size: 20px}
+	   .slider .contentslider .content6{width: 100%}
+	   	  .slider .contentslider .content6 h2 {font-size: 20px}
+	    .effect .effectcontent{width: 100%;margin-top: 0}
+
+	    .effect .effectimg{width: 100%;}
+   	  .effectimg .playbtn{top: 50%;left: 40%}
+   	  .services{width: 100%;margin-top: 230px}
+   	  .services2{width: 100%;margin-top: 0px}
+   	   .services2 .buy{width: 80%;margin-bottom: 15px}
+   	   .services2 .rent{width: 80%;margin-bottom: 15px}
+   	   .services2 .sell{width: 80%;margin-bottom: 15px}
+	 
+}
+
